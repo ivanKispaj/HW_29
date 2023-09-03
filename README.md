@@ -25,7 +25,13 @@ class FineGrainedQueue
      <li>вставляется элемент в середину или конец списка, то есть вставку в начало списка не нужно рассматривать</li>
      <li>если pos больше длины списка, то нужно вставить элемент в конец списка </li>
   </ul>
-  
+
+## install
+            git clone https://github.com/ivanKispaj/HW_29.git
+            make -f makefile
+            В директории с исходниками создастся файл queue.exe
+            
+run: <b>./queue.exe</b>
 ## Реализация:
 
   <ol>
